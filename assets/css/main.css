@@ -4692,7 +4692,7 @@ input, select, textarea {
 	/* Style the button that is used to open and close the collapsible content */
 	.collapsible {
 		background-color: rgb(234, 234, 234);
-		color: #444;
+		color: rgb(141, 23, 23);
 		cursor: pointer;
 		padding: 18px;
 		width: 100%;
