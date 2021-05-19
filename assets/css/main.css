@@ -4707,7 +4707,7 @@ input, select, textarea {
 
 	.collapsible:after {
 		content: '\002B';
-		color: white;
+		/* color: white; */
 		font-weight: bold;
 		float: right;
 		margin-left: 5px;
