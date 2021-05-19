@@ -4704,6 +4704,18 @@ input, select, textarea {
 	.active, .collapsible:hover {
 		background-color: #ccc;
 	}
+
+	.collapsible:after {
+		content: '\002B';
+		color: white;
+		font-weight: bold;
+		float: right;
+		margin-left: 5px;
+	  }
+	  
+	  .active:after {
+		content: "\2212";
+	  }
 	
 	/* Style the collapsible content. Note: hidden by default */
 	.content {
