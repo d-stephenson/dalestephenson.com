@@ -4716,10 +4716,16 @@ input, select, textarea {
 		font-weight: bold;
 		float: right;
 		margin-left: 5px;
+
+		background-color: #18bfef;
+		color: rgb(0, 0, 0);
 	  }
 	  
 	  .active:after {
 		content: "\2212";
+
+		background-color: #18bfef;
+		color: rgb(0, 0, 0);
 	  }
 	
 	/* Style the collapsible content. Note: hidden by default */
