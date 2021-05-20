@@ -3384,6 +3384,24 @@ input, select, textarea {
 				#intro .button.primary:hover {
 					background-color: #18bfef;
 				}
+/* Test code */
+				#intro input[type="submit"].primarygrey,
+				#intro input[type="reset"].primarygrey,
+				#intro input[type="button"].primarygrey
+				#intro button.primarygrey,
+				#intro .button.primarygrey {
+					background-color: #ffffff;
+					box-shadow: none;
+					color: #b1b1b1 !important;
+				}
+	
+					#intro input[type="submit"].primarygrey:hover,
+					#intro input[type="reset"].primarygrey:hover,
+					#intro input[type="button"].primarygrey:hover,
+					#intro button.primarygrey:hover,
+					#intro .button.primarygrey:hover {
+						background-color: #18bfef;
+					}
 
 		#intro h1 {
 			font-size: 5rem;
