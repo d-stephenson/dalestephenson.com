@@ -4694,6 +4694,7 @@ input, select, textarea {
 		color: #444; */
 		background-color: rgb(0, 0, 0);
 		color: rgb(255, 255, 255);
+
 		cursor: pointer;
 		width: 100%;
 		border: none;
@@ -4706,6 +4707,7 @@ input, select, textarea {
 	.active, .collapsible:hover {
 		/* background-color: #ccc; */
 		background-color: #18bfef;
+		color: rgb(0, 0, 0);
 	}
 
 	.collapsible:after {
