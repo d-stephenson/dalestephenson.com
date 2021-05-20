@@ -4719,7 +4719,7 @@ input, select, textarea {
 	
 	/* Style the collapsible content. Note: hidden by default */
 	.content {
-		padding-top: 30px;
+		padding-top: 50px;
 		display: none;
 		overflow: hidden;
 		background-color: #ffffff;
