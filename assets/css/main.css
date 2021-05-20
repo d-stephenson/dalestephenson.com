@@ -4703,6 +4703,7 @@ input, select, textarea {
 	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 	.active, .collapsible:hover {
 		background-color: #ccc;
+		border: none;
 	}
 
 	.collapsible:after {
@@ -4711,10 +4712,12 @@ input, select, textarea {
 		font-weight: bold;
 		float: right;
 		margin-left: 5px;
+		border: none;
 	  }
 	  
 	  .active:after {
 		content: "\2212";
+		border: none;
 	  }
 	
 	/* Style the collapsible content. Note: hidden by default */
