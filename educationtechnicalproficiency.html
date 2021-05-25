@@ -62,8 +62,19 @@
 								Nelson Marlborough Institute of Technology</p>
 							</header>
 							<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+
+
+
+
+							<img class="mySlides" src="images/framerParetoBusinessSolutions.jpg">
+							<img class="mySlides" src="images/framerSouthLakelandDistrictCouncil.jpg">
+							<img class="mySlides" src="images/framerParetoBusinessSolutions.jpg">
+							<img class="mySlides" src="images/framerSouthLakelandDistrictCouncil.jpg">
+
+							<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+							<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+
 						</section>
 
 				</div>
@@ -134,6 +145,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src=
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {slideIndex = 1} 
+				if (n < 1) {slideIndex = x.length} ;
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+				}
+				x[slideIndex-1].style.display = "block"; 
+				}
+			</script>
 
 	</body>
 </html>
