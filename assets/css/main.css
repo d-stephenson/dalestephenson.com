@@ -4729,3 +4729,10 @@ input, select, textarea {
 		overflow: hidden;
 		background-color: #ffffff;
 	} 
+
+	/* Career pages paragraphs */
+	.careerindent {
+		text-align: justify;
+		width: 90%;
+		margin: 0 0 2rem 0;
+	}
