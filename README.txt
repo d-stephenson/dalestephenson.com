@@ -1,1 +1,5 @@
-Career History Dale Stephenson
+# Resume 
+
+Career & Educational History
+
+Dale Stephenson
