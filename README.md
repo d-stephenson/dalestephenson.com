@@ -1,5 +1,5 @@
 # Resume 
 
-Career & Educational History
+Career & Education History
 
 Dale Stephenson
